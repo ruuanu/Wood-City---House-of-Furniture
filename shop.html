@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Wood City</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Wood City <span>House of Furniture</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('https://images.unsplash.com/photo-1540574163026-643ea20d25b5?auto=format&fit=crop&w=1920&q=80'); background-position: center bottom;">
+        <div>
+            <h1 class="fade-in-up">Our Shop</h1>
+            <p class="fade-in-up delay-1">Explore our exclusive collections and find the perfect match for your home.</p>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="featured-products">
+        <div class="shop-filters fade-in-up">
+            <button class="filter-btn active">All Items</button>
+            <button class="filter-btn">Living Room</button>
+            <button class="filter-btn">Bedroom</button>
+            <button class="filter-btn">Dining</button>
+            <button class="filter-btn">Accent</button>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card fade-in-up">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=600&q=80" alt="Modern Sofa">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Nordic Wooden Sofa</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        <span>LKR 145,000.00</span> LKR 125,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card fade-in-up delay-1">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80" alt="Wooden Cabinet">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Classic Wooden Wardrobe</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <span>LKR 285,000.00</span> LKR 245,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card fade-in-up delay-2">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1540574163026-643ea20d25b5?auto=format&fit=crop&w=600&q=80" alt="Lounge Chair">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Elegance Accent Chair</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        LKR 65,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card fade-in-up delay-3">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1532372576444-ea6223d6a935?auto=format&fit=crop&w=600&q=80" alt="Coffee Table">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Minimalist Coffee Table</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        LKR 45,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-card fade-in-up">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=600&q=80" alt="Luxury Bed">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Royal King Size Bed</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <span>LKR 315,000.00</span> LKR 295,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card fade-in-up delay-1">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=600&q=80" alt="Dining Table">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Solid Teak Dining Set</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">
+                        LKR 210,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-card fade-in-up delay-2">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=600&q=80" alt="Modern Chair">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Sleek Wooden Armchair</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                    <div class="price">
+                        LKR 55,000.00
+                    </div>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card fade-in-up delay-3">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1595514535415-846b8f3d6db5?auto=format&fit=crop&w=600&q=80" alt="Premium Sofa Set">
+                    <div class="product-actions">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-eye"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h4>Premium L-Shape Sofa</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <span>LKR 450,000.00</span> LKR 375,000.00
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 50px;">
+            <button class="btn fade-in-up">Load More Products</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <a href="index.html">Wood City</a>
+                </div>
+                <p>Welcome to Wood City, the ultimate house of furniture. We bring you the finest solid wood furniture designed to elevate your living spaces with style and comfort.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Timber Lane, Colombo 07, Sri Lanka</li>
+                    <li><i class="fas fa-phone"></i> +94 11 234 5678</li>
+                    <li><i class="fas fa-envelope"></i> info@woodcity.lk</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wood City - House of Furniture. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
